@@ -26,3 +26,27 @@ This application takes any input image and generates a human-like caption descri
 ```bash
 git clone https://github.com/yourusername/image-captioning-app.git
 cd image-captioning-app
+```
+
+### 2. Create and activate a virtual environment
+
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+.\venv\Scripts\activate   # On Windows
+
+### 3. Install the dependencies
+pip install -r requirements.txt
+
+### 4. Run the application
+python demo.py
+Gradio will launch a local web interface. Upload an image and receive a descriptive caption instantly.
+
+## Author’s Note
+This is part of my learning journey into multimodal AI applications. If you find this useful or want to build something together, I’d love to hear from you.
+
+## License
+This project is open-source under the MIT License.
+
+
+
+
